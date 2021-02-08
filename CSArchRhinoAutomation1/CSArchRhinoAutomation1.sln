@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSArchRhinoAutomation1", "CSArchRhinoAutomation1.csproj", "{B0E8728B-5474-406C-B304-B00C45904CCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E8728B-5474-406C-B304-B00C45904CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E8728B-5474-406C-B304-B00C45904CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E8728B-5474-406C-B304-B00C45904CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E8728B-5474-406C-B304-B00C45904CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D75BB85-99FD-40FB-AEAB-6500A9EA6713}
+	EndGlobalSection
+EndGlobal

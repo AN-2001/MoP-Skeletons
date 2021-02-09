@@ -5,7 +5,7 @@ using RhinoWindows;
 
 namespace GUISphereCreateExportPlugin.Commands
 {
-  [System.Runtime.InteropServices.Guid("3a403bca-7bca-4913-bfb1-df74f2022592")]
+  [System.Runtime.InteropServices.Guid("4af981ef-ed0c-4db8-ac97-859c9b99c25c")]
   public class GUISphereCreateExportPluginFormCommand : Command
   {
     public override string EnglishName

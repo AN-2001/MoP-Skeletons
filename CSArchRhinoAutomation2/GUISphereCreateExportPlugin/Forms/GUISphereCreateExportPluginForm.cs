@@ -70,11 +70,11 @@ namespace GUISphereCreateExportPlugin.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //if(textBox5.Text.Length == 0)
-           // {
-           //     return;
-           // }
-            plugin.saveSTP(textBox5.Text);
+            if(textBox5.Text.Length == 0)
+            {
+                return;
+            }
+            plugin.SaveSTP(textBox5.Text);
         }
     }
 }

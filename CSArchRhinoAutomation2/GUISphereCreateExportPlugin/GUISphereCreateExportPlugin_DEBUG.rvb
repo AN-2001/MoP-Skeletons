@@ -1,0 +1,20 @@
+Option Explicit
+
+Call DebugSphereCreateExportPlugInAddSphere()
+Call DebugSphereCreateExportPlugInSaveSTP()
+
+' Test case for the functionality AddSphere
+Sub DebugSphereCreateExportPlugInAddSphere()
+  Dim plugin
+  Set plugin = Rhino.GetPluginObject("GUISphereCreateExportPlugin")
+  Call plugin.AddSphere(1.0, 1.0, 1.0, 2.5)
+  Set plugin = Nothing
+End Sub
+
+' Test case for the functionality SaveSTP
+Sub DebugSphereCreateExportPlugInSaveSTP()
+  Dim plugin
+  Set plugin = Rhino.GetPluginObject("GUISphereCreateExportPlugin")
+  Call plugin.SaveSTP("C:\Users\kacpe\test.stp")
+  Set plugin = Nothing
+End Sub

@@ -38,7 +38,7 @@ namespace SphereCreateExportPlugin
         /// <summary>
         /// All the objects are saved as STEP file.
         /// For more info. see: 
-        ///  https://developer.rhino3d.com/api/RhinoCommon/html/M_Rhino_FileIO_FileStp_Write.htm
+        /// https://developer.rhino3d.com/api/RhinoCommon/html/M_Rhino_FileIO_FileStp_Write.htm
         ///  https://developer.rhino3d.com/api/RhinoCommon/html/T_Rhino_FileIO_FileStpWriteOptions.htm
         /// </summary>
         /// <returns></returns>

@@ -12,16 +12,16 @@ using Rhino.PlugIns;
 [assembly: PlugInDescription(DescriptionType.Organization, "Technion")]
 [assembly: PlugInDescription(DescriptionType.UpdateUrl, "https://github.com/copyme/CSArch-demo")]
 [assembly: PlugInDescription(DescriptionType.WebSite, "https://copyme.github.io/misc/cs-arch-spring")]
-[assembly: PlugInDescription(DescriptionType.Icon, "SphereCreateExportPlugin.Resources.SampleCs.ico")]
+[assembly: PlugInDescription(DescriptionType.Icon, "GUISphereCreateExportPlugin.Resources.SampleCs.ico")]
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SphereCreateExportPlugin")] // Plug-In title is extracted from this
-[assembly: AssemblyDescription("SphereCreateExportPlugin")]
+[assembly: AssemblyTitle("GUISphereCreateExportPlugin")] // Plug-In title is extracted from this
+[assembly: AssemblyDescription("GUISphereCreateExportPlugin")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Technion")]
-[assembly: AssemblyProduct("SphereCreateExportPlugin")]
+[assembly: AssemblyProduct("GUISphereCreateExportPlugin")]
 [assembly: AssemblyCopyright("Copyright © 2021, KP")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,7 +32,7 @@ using Rhino.PlugIns;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("954da49f-0c15-4dd6-8e28-9fb1d1311c4b")] // This will also be the Guid of the Rhino plug-in
+[assembly: Guid("6acc2d29-3c08-4752-97a3-56bf957bb03d")] // This will also be the Guid of the Rhino plug-in
 
 // Version information for an assembly consists of the following four values:
 //

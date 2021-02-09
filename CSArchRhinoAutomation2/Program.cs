@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CSArchRhinoAutomation1
+namespace CSArchRhinoAutomation2
 {
     static class Program
     {

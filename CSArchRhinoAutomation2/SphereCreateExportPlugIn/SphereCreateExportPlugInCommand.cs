@@ -2,7 +2,7 @@
 using Rhino;
 using Rhino.Commands;
 
-namespace SphereCreateExportPlugIn
+namespace SphereCreateExportPlugin
 {
     /// <summary>
     /// SphereCreateExportPlugInCommand is a hidden command  that basically does nothing.
@@ -15,12 +15,15 @@ namespace SphereCreateExportPlugIn
     /// <returns>
     /// The command name as it appears on the Rhino command line.
     /// </returns>
-    public override string EnglishName => "SphereCreateExportPlugInCommand";
+    public override string EnglishName
+    {
+      get { return "SphereCreateExport"; }
+    }
 
-    /// <summary>
-    /// Called by Rhino to run the command.
-    /// </summary>
-    protected override Result RunCommand(RhinoDoc doc, RunMode mode)
+        /// <summary>
+        /// Called by Rhino to run the command.
+        /// </summary>
+        protected override Result RunCommand(RhinoDoc doc, RunMode mode)
     {
       // Do nothing...
       return Result.Success;

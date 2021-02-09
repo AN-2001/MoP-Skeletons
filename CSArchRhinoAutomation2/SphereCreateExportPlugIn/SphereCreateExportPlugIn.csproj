@@ -8,8 +8,8 @@
     <ProjectGuid>{BAE09B24-852E-45B9-B874-AF714DEF91BD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SphereCreateExportPlugIn</RootNamespace>
-    <AssemblyName>SphereCreateExportPlugIn</AssemblyName>
+    <RootNamespace>SphereCreateExportPlugin</RootNamespace>
+    <AssemblyName>SphereCreateExportPlugin</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -48,8 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SphereCreateExportPlugInCommand.cs" />
-    <Compile Include="SphereCreateExportPlugInObject.cs" />
-    <Compile Include="SphereCreateExportPlugInPlugIn.cs" />
+    <Compile Include="SphereCreateExportPluginObject.cs" />
+    <Compile Include="SphereCreateExportPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

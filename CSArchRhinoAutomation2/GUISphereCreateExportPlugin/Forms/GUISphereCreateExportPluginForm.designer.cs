@@ -1,7 +1,7 @@
 ﻿
-namespace CSArchRhinoAutomation2
+namespace GUISphereCreateExportPlugin.Forms
 {
-    partial class Form1
+    partial class GUISphereCreateExportPluginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,6 @@ namespace CSArchRhinoAutomation2
         {
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -65,17 +64,6 @@ namespace CSArchRhinoAutomation2
             this.label1.Size = new System.Drawing.Size(85, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Create a sphere:";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(432, 12);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(84, 17);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Show Rhino";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // textBox1
             // 
@@ -112,7 +100,7 @@ namespace CSArchRhinoAutomation2
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 52);
+            this.label2.Location = new System.Drawing.Point(12, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(14, 13);
             this.label2.TabIndex = 7;
@@ -121,7 +109,7 @@ namespace CSArchRhinoAutomation2
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(57, 52);
+            this.label3.Location = new System.Drawing.Point(57, 49);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(14, 13);
             this.label3.TabIndex = 8;
@@ -130,7 +118,7 @@ namespace CSArchRhinoAutomation2
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(104, 52);
+            this.label4.Location = new System.Drawing.Point(104, 49);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(14, 13);
             this.label4.TabIndex = 9;
@@ -139,7 +127,7 @@ namespace CSArchRhinoAutomation2
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(154, 52);
+            this.label5.Location = new System.Drawing.Point(154, 49);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 10;
@@ -182,7 +170,7 @@ namespace CSArchRhinoAutomation2
             this.label6.TabIndex = 14;
             this.label6.Text = "Export";
             // 
-            // Form1
+            // GUISphereCreateExportPluginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -199,11 +187,10 @@ namespace CSArchRhinoAutomation2
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "CSArchRhinoAutomation2";
+            this.Name = "GUISphereCreateExportPluginForm";
+            this.Text = "GUISphereCreateExportPlugin";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,7 +200,6 @@ namespace CSArchRhinoAutomation2
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;

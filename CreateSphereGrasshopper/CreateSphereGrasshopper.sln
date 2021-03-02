@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateSphereGrasshopper", "CreateSphereGrasshopper.csproj", "{F57D6AB3-22C1-4127-8A85-8D63B52E8187}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F57D6AB3-22C1-4127-8A85-8D63B52E8187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57D6AB3-22C1-4127-8A85-8D63B52E8187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57D6AB3-22C1-4127-8A85-8D63B52E8187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57D6AB3-22C1-4127-8A85-8D63B52E8187}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FA5454A-DA67-412B-975F-CF8BD4AC46CA}
+	EndGlobalSection
+EndGlobal

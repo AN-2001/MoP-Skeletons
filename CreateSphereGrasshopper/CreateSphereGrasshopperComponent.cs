@@ -91,11 +91,11 @@ namespace CreateSphereGrasshopper
                 return;
             }
 
-            // We're set to create the spiral now. To keep the size of the SolveInstance() method small, 
+            // We're set to create the sphere now. To keep the size of the SolveInstance() method small, 
             // The actual functionality will be in a different method:
             Sphere sphere = new Sphere(center, r); // Rhino.Geometry.Sphere
 
-            // Finally assign the spiral to the output parameter.
+            // Finally assign the sphere to the output parameter.
             DA.SetData(0, sphere);
         }
 

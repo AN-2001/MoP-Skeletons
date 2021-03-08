@@ -348,6 +348,3 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-
-# ignore third party stuff
-!Text2GeomViaIrit2Grasshopper/3rd-party/

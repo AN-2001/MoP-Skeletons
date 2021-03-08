@@ -3,9 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# ignore third party stuff
-!Text2GeomViaIrit2Grasshopper/3rd-party/*
-
 # User-specific files
 *.rsuser
 *.suo
@@ -351,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# ignore third party stuff
+!Text2GeomViaIrit2Grasshopper/3rd-party/

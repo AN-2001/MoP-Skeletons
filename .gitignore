@@ -4,7 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # ignore third party stuff
-!Text2GeomViaIrit2Grasshopper/3rd-party/
+!Text2GeomViaIrit2Grasshopper/3rd-party/*
 
 # User-specific files
 *.rsuser

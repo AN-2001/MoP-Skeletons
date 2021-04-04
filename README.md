@@ -25,7 +25,7 @@ These projects demonstrate how to use the Rhino API (Rhino plug-ins and scripts)
 * CSArchRhinoAutomation1
 * CSArchRhinoAutomation2
 
-In the spring semester of 2021, we will not use **Rhino Automation examples**.
+**In the spring semester of 2021, we will not use Rhino Automation examples**.
 
 ## Useful links
 

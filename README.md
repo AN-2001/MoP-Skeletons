@@ -2,7 +2,7 @@
 This repository contains basic code that explains Rhino 7 API for the spring course 2020/2021
 
 
-## Requiements
+## Requirements
 
 * Rhino 7 64 bits for Windows ([get for free 90-days evaluation license](https://www.rhino3d.com/download/rhino-for-windows/evaluation))
 * Visual Studio 2019 with C# and .NET 4.8 (it is enough to use the community version, see [here](https://visualstudio.microsoft.com/vs/community/))

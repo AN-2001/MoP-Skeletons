@@ -123,6 +123,8 @@ Erase "$(TargetPath)"
 if $(ConfigurationName) == Debug (
 Copy "$(ProjectDir)3rd-party\Irit\Debug\IritNet.dll" "$(TargetDir)IritNet.dll"
 Copy "$(ProjectDir)3rd-party\Irit\Debug\Irit.dll" "$(TargetDir)Irit.dll"
+Copy "$(ProjectDir)3rd-party\Irit\Debug\IritNet.pdb" "$(TargetDir)IritNet.pdb"
+Copy "$(ProjectDir)3rd-party\Irit\Debug\IritD64.pdb" "$(TargetDir)IritD64.pdb"
 ) else (
 Copy "$(ProjectDir)3rd-party\Irit\Release\IritNet.dll" "$(TargetDir)IritNet.dll"
 Copy "$(ProjectDir)3rd-party\Irit\Release\Irit.dll" "$(TargetDir)Irit.dll"

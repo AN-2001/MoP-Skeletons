@@ -19,7 +19,7 @@ Text2GeomViaIrit2Grasshopper is another example of GH and Rhino API use, but it 
 
 _The conversion of the text is done by a C++ library called [IRIT](http://www.cs.technion.ac.il/~irit/) and developed by [prof. Gershon Elber](http://www.cs.technion.ac.il/~gershon/). The bridge between C++ and C# is possible thanks to bindings defined in the IritNet interface. Nevertheless, IritNet does not cover the whole interface of Irit, and therefore, in case of issues, it is advised to contact me as soon as possible. I will then do whatever possible to add the missing functionalities._
 
-The IritNet and Irit libraries are already provided in Release and Debug form. Moreover, the project file is configured to automatically place the correct version of these libraries with respect to the compilation scenario set in Visual Studio. _Assuming that the defualt installation path was chosen during Rhino 7 installation._
+The IritNet and Irit libraries are already provided in Release and Debug form. Moreover, the project file is configured to automatically place the correct version of these libraries with respect to the compilation scenario set in Visual Studio. _Assuming that the defualt installation path was chosen during Rhino 8 installation._
 
 
 In the directory ```Examples```, you can find a file ```grass_hopper_demo_text_extrude```, which shows the use of the plug-in, in a pipeline that not only creates polygons from the user provided text but also extrudes these polygons.
